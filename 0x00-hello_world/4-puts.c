@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-/* Program prints the put string */ 
+/*
+ * Main funtion
+ *
+ * returns 0
+ */ 
 
-int main(void) /*main function to call*/
+int main(void) 
 {
 	puts("Programming is like building a multilingual puzzle");
 

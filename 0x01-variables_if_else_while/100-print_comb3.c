@@ -8,24 +8,18 @@
 
 int main(void)
 {
-	int n1, n2;
+	int i, j, k;
 
-	for (n1 = 0; n1 <= 9; n1++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (n2 = n1 + 1; n2 <= 10; n2++)
+		for (j = i + 1; j <= 9; j++)
 		{
-			putchar((n1 % 10) + '0');
-			putchar((n2 % 10) + '0');
-
-			if (n1 == 8 && n2 == 9)
-				continue;
-		}
-
-		putchar(',');
-		putchar(' ');
+			for (k = j + 1; k <= 9; k++)
+			{
+			       	putchar("%d,%d,%d,\n", i, j, k);
+			}
+		 }
 	}
-
-	putchar('\n');
 
 	return (0);
 }

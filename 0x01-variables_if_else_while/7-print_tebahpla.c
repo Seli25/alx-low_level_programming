@@ -3,16 +3,16 @@
 /**
  * main - main function of the program
  *
- * Return: Returns 0
+ * Return: 0
  */
 
 int main(void)
 {
-	int num;
+	char L;
 
-	for (num = 0; num < 10; num++)
+	for (L = 'z'; L >= 'a'; L--)
 
-		putchar((num % 10) + '0');
+		putchar(L);
 
 	putchar('\n');
 

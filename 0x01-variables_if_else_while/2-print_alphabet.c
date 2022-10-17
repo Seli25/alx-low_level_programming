@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 
 /**
  * main - main function of the program
@@ -10,7 +10,7 @@ int main(void)
 {
 	char L;
 
-	for (a = L; z <= L; L++)
+	for (L = 'a'; L <= 'z'; L++)
 
 		putchar(L);
 

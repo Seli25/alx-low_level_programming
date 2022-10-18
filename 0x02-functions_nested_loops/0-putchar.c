@@ -1,12 +1,22 @@
-#include <unistd.h>
+#include "main.h"
 
-/*
- * _putchar - print a single character
+/**
+ * main - prints _putchar
  *
- * Return: On success 1 on failure 0
+ * Return: Returns 0
  */
 
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char print[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(print[i]);
+	}
+
+	_putchar('\n');
+
+	return (0);
 }

@@ -19,7 +19,7 @@ int main(void)
 	{
 		if (num == 50)
 		{
-			printf("%lu", nextnum);
+			printf("%lu\n", nextnum);
 		}
 
 		else

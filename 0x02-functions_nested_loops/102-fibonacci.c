@@ -9,22 +9,22 @@
 
 int main(void)
 {
-	int n1 = 1, n2 = 2, num = 3;
-	int nextnum = n1 + n2;
+	long int n1 = 1, n2 = 2, num = 3;
+	long int nextnum = n1 + n2;
 
-	printf("%d, ", n1);
-	printf("%d, ", n2);
+	printf("%lu, ", n1);
+	printf("%lu, ", n2);
 
 	while (num <= 50)
 	{
 		if (num == 50)
 		{
-			printf("%d \n", nextnum);
+			printf("%lu \n", nextnum);
 		}
 
 		else
 		{
-			printf("%d, ", nextnum);
+			printf("%lu, ", nextnum);
 		}
 
 		n1 = n2;

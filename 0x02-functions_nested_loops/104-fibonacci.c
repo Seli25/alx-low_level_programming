@@ -9,8 +9,8 @@
 
 int main(void)
 {
-	long int n1 = 1, n2 = 2, num = 3;
-	long int nextnum = n1 + n2;
+	unsigned long n1 = 1, n2 = 2, num = 3;
+	unsigned long nextnum = n1 + n2;
 
 	printf("%lu, ", n1);
 	printf("%lu, ", n2);

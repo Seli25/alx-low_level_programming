@@ -14,10 +14,10 @@ int nat_sqrt(int n, int root)
 	if (n * n == root)
 		return (root);
 
-	if (root == n / 2)
+	if (n * n > root)
 		return (-1);
 
-	return (nat_sqrt(n, root + 1));
+	return (nat_sqrt(root, n + 1));
 }
 
 /**
@@ -30,13 +30,5 @@ int nat_sqrt(int n, int root)
 
 int _sqrt_recursion(int n)
 {
-	int i = 0;
-
-	if (n < 0)
-		return (-1);
-
-	else
-	{
-		return (nat_sqrt(n, i));
-	}
+	return (nat_sqrt(n, 0));
 }

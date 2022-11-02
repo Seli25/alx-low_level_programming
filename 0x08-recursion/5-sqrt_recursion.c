@@ -14,7 +14,7 @@ int nat_sqrt(int n, int root)
 	if (n * n == root)
 		return (root);
 
-	if (root == num / 2)
+	if (root == n / 2)
 		return (-1);
 
 	return (nat_sqrt(n, root + 1));

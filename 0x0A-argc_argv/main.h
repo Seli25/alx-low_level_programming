@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE_NAME
-#define HEADER_FILE_NAME
+#ifndef main
+#define main
 
 int _putchar(char c);
 int prog_name(int argc, char *argv[]);

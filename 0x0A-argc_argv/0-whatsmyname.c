@@ -1,18 +1,18 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * prog_name - Function to print the program name
+ * main - Prints the name of the program
  *
- * @argc: contains the arguemnts inputed
- * @argv: array of pointer
+ * @argc: given number of arguments
+ * @argv: Array name
  *
- * Return: Returns 0 on success
+ * Return: 0
  */
 
-int prog_name(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("The program's name is: %s\n", argv[argc * 0]);
+	printf("%s\n", argv[argc * 0]);
 
 	return (0);
 }
